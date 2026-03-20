@@ -42,7 +42,7 @@ const MainTeachingItem = ({ id, title, description, mainContent, bannerColour }:
     <Card
       className="
         relative snap-start
-        w-[230px]
+        w-57.5
         shrink-0
         md:w-full md:shrink
         flex flex-col justify-between items-center
@@ -54,7 +54,7 @@ const MainTeachingItem = ({ id, title, description, mainContent, bannerColour }:
         className="aspect-video w-full object-cover"
       /> */}
 
-      <div style={{ backgroundColor: bannerColour ? bannerColour : "pink" }} className="w-full h-[100px]"></div>
+      <div style={{ backgroundColor: bannerColour ? bannerColour : "pink" }} className="w-full h-25"></div>
 
       <CardHeader className="w-full">
         <CardAction />
